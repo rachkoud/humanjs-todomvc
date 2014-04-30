@@ -1,0 +1,20 @@
+section#todoapp
+    header#header
+        h1 todos
+        input#new-todo(placeholder='What needs to be done?', autofocus='')
+    section#main
+        input#toggle-all(type='checkbox')
+        label(for='toggle-all') Mark all as complete
+        ul#todo-list
+
+    footer#footer
+        span#todo-count
+            strong
+        ul#filters
+            li
+                a.selected(href='/') All
+            li
+                a(href='/active') Active
+            li
+                a(href='/completed') Completed
+        button#clear-completed
