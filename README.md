@@ -1,8 +1,10 @@
 # Human Javascript todoMVC app
 
-This app is largely inspired by the well known [todoMVC Backbone example](https://github.com/tastejs/todomvc) and use the components from the great book [HumanJavascript](http://humanjavascript.com) of [Henrik Joreteg](https://twitter.com/HenrikJoreteg).
+This app is largely inspired by the well known [todoMVC Backbone example](https://github.com/tastejs/todomvc) and uses the components from the great book [HumanJavascript](http://humanjavascript.com) of [Henrik Joreteg](https://twitter.com/HenrikJoreteg).
 
-## How to run this app
+# Quickstart
+
+### Install
 
 1. download/install [node.js](http://nodejs.org/)
 1. download/install [git](http://git-scm.com/)
@@ -14,6 +16,8 @@ This app is largely inspired by the well known [todoMVC Backbone example](https:
 1. run it: `node server`
 1. open http://localhost:3000 in a browser
 
-## License
+### License
 
-MIT
+`Human Javascript todoMVC app` is a public domain work, dedicated using
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to do
+whatever you want with it.
